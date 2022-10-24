@@ -1,0 +1,133 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: rgb(61, 61, 228);
+  align-items: center;
+  padding-top: 1%;
+}
+
+.testwindow {
+  background-color: rgba(238, 247, 247, 0.938);
+
+  width: 60%;
+
+  border-radius: 10px;
+}
+
+.headingT {
+  padding-top: 7px;
+  font-size: 28px;
+  font-weight: 800;
+  color: rgb(76, 0, 130);
+  text-shadow: 5cm;
+  text-decoration: underline overline solid rgb(76, 0, 130);
+}
+
+.panel {
+  background-color: rgba(19, 214, 248, 0.959);
+  border: 3px;
+  border-style: solid;
+  border-color: rgba(38, 38, 156, 0.877);
+  margin: 10px;
+}
+
+.testpan {
+  background-color: white;
+  border: 3px;
+  border-style: solid;
+  width: 60%;
+  border-color: rgb(38, 38, 156);
+  margin: 10px;
+}
+
+.instruction {
+  color: rgb(156, 9, 9);
+}
+
+.instruction2 {
+  color: rgb(156, 9, 9);
+  align-self: flex-end;
+  font-size: small;
+}
+
+.startbtn {
+  background-color: rgba(19, 214, 248, 0.959);
+  border-style: dashed;
+  border-color: rgb(5, 5, 156);
+  color: white;
+  font-weight: 700;
+  font-size: large;
+
+  cursor: pointer;
+  padding-top: 0.7px;
+  padding-bottom: 0.7px;
+  padding-right: 3px;
+  padding-left: 3px;
+  border-radius: 5px;
+}
+
+.clock {
+  background-image: url("clock3.jpg");
+  background-repeat: no-repeat;
+  height: 3cm;
+  padding: 1.8cm;
+}
+
+.time {
+  background-color: white;
+  text-align: center;
+  color: black;
+  font-weight: 600;
+  width: 50px;
+}
+
+.score {
+  background-color: white;
+  width: 40%;
+  border-radius: 15px;
+  align-content: space-between;
+}
+
+.remarks {
+  text-align: left;
+  padding-left: 1cm;
+  color: green;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.time-taken {
+  text-align: left;
+  padding-left: 1cm;
+  color: rgb(98, 120, 141);
+  font-size: 20px;
+  font-weight: 700;
+}
+.speed {
+  text-align: left;
+  padding-left: 1cm;
+  color: rgb(98, 120, 141);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.headHis {
+  text-align: left;
+  padding-left: 1cm;
+  color: rgb(128, 42, 179);
+  text-decoration: underline wavy rgb(128, 42, 179);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.history {
+  text-align: left;
+  padding-left: 1cm;
+  color: rgb(12, 43, 71);
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 50px;
+}
